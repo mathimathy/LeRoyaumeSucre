@@ -1,0 +1,58 @@
+body {
+	font-family: 'Source code pro', Calibri, serif;
+	margin: 0px;
+	padding: 0px;
+}
+nav {
+	width: 100%;
+	background-color: #424558;
+}
+
+nav > ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li {
+	list-style-type: none;
+}
+.profil {
+	float: right;
+}
+.other {
+	float: left;
+}
+nav > ul > li {
+	position: relative;
+}
+
+nav > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.submenu {
+	display: none;
+}
+
+nav a {
+	display: inline-block;
+}
+nav > ul > li > a {
+	padding: 20px 30px;
+	color: #fff;
+}
+body > h1 {
+	font-size: 40;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.right {
+  position: absolute;
+  right: 2px;
+  padding: 10px;
+}

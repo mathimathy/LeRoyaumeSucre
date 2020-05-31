@@ -1,0 +1,23 @@
+body {
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	text-align-last: center;
+	vertical-align: center;
+}
+body > h1 {
+	font-size: 40;
+}
+body > form > input {
+	width: 500px;
+	height: 50px;
+	font-size: 25;
+}
+body > form > input[type="submit"] {
+	width: 450px;
+}
+body > form > textarea {
+	width: 500px;
+	height: 50px;
+}
